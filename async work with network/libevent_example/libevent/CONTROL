@@ -1,0 +1,17 @@
+Package: libevent
+Version: 2.1.12
+Port-Version: 6
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: c93c01d5689167045c7ef030ad106518e5783d85baee28c31f077870a29a6d88
+Description: An event notification library
+Type: Port
+Default-Features: thread
+
+Package: libevent
+Feature: thread
+Architecture: x64-linux
+Multi-Arch: same
+Description: Support for thread
+Type: Port
